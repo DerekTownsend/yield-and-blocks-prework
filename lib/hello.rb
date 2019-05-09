@@ -1,10 +1,14 @@
 def hello_t(array)
+  if condition
+    
+  
   i=0
   while i<array.length
     yield array[i]
     i+=1
   end
-  array
+  return array
+  end
 end
 
 
