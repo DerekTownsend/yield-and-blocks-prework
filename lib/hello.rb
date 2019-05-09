@@ -1,5 +1,5 @@
 def hello_t(array)
-  if condition
+  if blocks_given?
     i=0
     while i<array.length
       yield array[i]
